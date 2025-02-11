@@ -1,0 +1,109 @@
+/* nosifer-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nosifer';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/nosifer-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+
+}
+/* irish-grover-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/irish-grover-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pubg{
+    background-image: url("./images/.pubg");
+    background-size: cover;
+
+}
+.headerrr{
+    margin-bottom: 585px;
+    
+}
+.ul{
+    display: flex;
+    gap: 78px;
+    
+
+
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(250, 255, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    transition:.3s all ease-in-out;
+
+
+}
+a:hover{
+    color: rgb(182, 5, 5);
+    font-weight: 800;
+  
+   
+}
+
+.ot{
+    color: rgb(250, 255, 0);
+    font-weight: 800;
+    line-height: 29px;
+}
+body{
+    font-family: 'Nosifer';
+    background-image: url("./images/image\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 46px;
+}
+button{
+    box-sizing: border-box;
+    border: 11px solid rgb(5, 5, 5);
+    background: linear-gradient(90.00deg, rgba(245, 194, 44, 0.96),rgb(100, 170, 88) 28%,rgb(250, 255, 0) 58.5%,rgb(217, 46, 35) 100%);
+    padding: 31px 55px 30px 120px;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    font-family: "Irish Grover";
+
+}
+.teo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+.leo{
+    color: rgb(250, 255, 0);
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 178px;
+    text-align: center;
+    margin-bottom: 74px;
+}
